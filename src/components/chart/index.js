@@ -1,33 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@akshatrastogi25 
-prog-hammer
-/
-corona-tracker
-1
-01
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-corona-tracker/src/components/chart/index.js /
-@prog-hammer
-prog-hammer getting country wise barchart
-Latest commit ab38ffd on 8 Jun
- History
- 1 contributor
-77 lines (67 sloc)  2.02 KB
-  
 import React ,{useState,useEffect} from 'react'
 import {Line ,Bar} from 'react-chartjs-2'
 import './styleSheet.css'
@@ -105,4 +75,3 @@ const Chart=({data,country})=>{
 }
 
 export default Chart;
-
