@@ -1,1 +1,28 @@
+.app{
+}
+.top-wrapper{
+  height:100px;
+}
+.content-wrapper{
+  margin-top: 1%;
+}
+.left-wrapper{
+  width: 30%;
+  float: left;
+}
 
+.right-wrapper{
+  width:70%;
+  float: right;
+  text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  .left-wrapper{
+    float: none;
+    width: 100%;
+  }
+  .right-wrapper{
+    float: none;
+    width: 100%;
+  }
+}
